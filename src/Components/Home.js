@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Pages/Home.css';
+import '../Css/Home.css';
 import { Link } from "react-router-dom";
 import AppsIcon from '@material-ui/icons/Apps';
 import { Avatar } from '@material-ui/core';
@@ -25,7 +25,7 @@ function Home() {
                     alt=""
                 />
                 <div className="home_inputContainer">
-                    <Search/>
+                    <Search />
                 </div>
             </div>
         </div>
