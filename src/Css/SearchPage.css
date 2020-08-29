@@ -6,11 +6,127 @@
     z-index: 100;
     align-items: flex-start;
     padding: 30px;
-    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+    
 }
 
 .searchPage_logo{
     object-fit: contain;
-    height: 50px;
+    height: 30px;
+    width: 92px;
     margin-right: 50px;
 }
+
+.searchPage_headerBody > .search  > 
+.search_input{
+    margin-top: 0;
+    width: unset;
+    margin: unset;
+    max-width: unset;
+}
+
+.searchPage_options{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.searchPage_options a,
+.searchPage_optionsRight a {
+    text-decoration: none;
+    color: gray;
+}
+
+.searchPage_optionsRight,
+.searchPage_optionsLeft {
+    display: flex;
+}
+
+.searchPage_optionsRight{
+    margin-left: 80px;
+}
+
+.searchPage_option{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    
+    /* padding: 16px 12px 12px 10px; */
+}
+
+.searchPage_option > .MuiSvgIcon-root{
+    height: 18px;
+    width: 18px;
+}
+
+.searchPage_option a {
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.searchPage_result{
+    margin: 30px 0;
+}
+
+
+.searchPage_resultCount{
+    color: #70757a;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+
+.searchPage_results{
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 175px;
+    margin-bottom: 100px;
+}
+
+.searchPage_result > a{
+    text-decoration: none;
+    color: #202124;
+    font-style: normal;
+}
+
+.searchPage_resultTitle{
+    text-decoration: none;
+}
+
+.searchPage_resultTitle:hover{
+    text-decoration: underline;
+}
+
+.searchPage_resultTitle > h2{
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 4px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: #1a0dab;
+}
+
+.searchPage_resultSnippet{
+    margin-top: 3px;
+}
+
+.searchPage_resultImage{
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+/* .searchPage_result_arrow{
+    
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    border-color: #202124 transparent;
+    
+} */
+
