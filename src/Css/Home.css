@@ -1,13 +1,14 @@
 .home{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 94vh;
 }
 
 .home_header{
    display: flex;
    justify-content: space-between;
-   padding: 20px 30px;
+   padding: 12px 20px;
    align-items: center;
 }
 

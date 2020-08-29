@@ -17,10 +17,10 @@ function SearchPage() {
     const [{ term }, dispatch] = useStateValue();
 
     //LIVE API CALL
-    //const { data } = useGoogleSearch(term); 
+    const { data } = useGoogleSearch(term); 
 
     //MOCK API
-    const data = Response;
+    //const data = Response;
     
     return (
         <div className="searchPage">
