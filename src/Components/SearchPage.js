@@ -25,7 +25,7 @@ function SearchPage() {
     return (
         <div className="searchPage">
             <div className="searchPage_header">
-                <Link to="/">
+                <Link to="/" className="searchPage_headerGoogle_logo">
                     <img 
                         className="searchPage_logo"
                         src="https:/www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"

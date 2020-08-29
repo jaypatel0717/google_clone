@@ -5,15 +5,20 @@
     background-color: white;
     z-index: 100;
     align-items: flex-start;
-    padding: 30px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ebebeb;
     
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.searchPage_headerGoogle_logo{
+    margin-top: 8px;
 }
 
 .searchPage_logo{
     object-fit: contain;
-    height: 30px;
+    height: 32px;
     width: 92px;
     margin-right: 50px;
 }
@@ -24,6 +29,7 @@
     width: unset;
     margin: unset;
     max-width: unset;
+    height: 25px;
 }
 
 .searchPage_options{
@@ -129,4 +135,3 @@
     border-color: #202124 transparent;
     
 } */
-
