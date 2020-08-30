@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Css/SearchPage.css';
+import Logo from '../Image/googlelogo.png';
 import { useStateValue } from './StateProvider';
 import useGoogleSearch from './useGoogleSearch';
 import Response from './response';
@@ -28,7 +29,7 @@ function SearchPage() {
                 <Link to="/" className="searchPage_headerGoogle_logo">
                     <img 
                         className="searchPage_logo"
-                        src="https:/www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                        src={Logo}
                         alt=""
                     />
                 </Link>

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Css/Home.css';
+import Logo from '../Image/googlelogo.png';
 import { Link } from "react-router-dom";
 import AppsIcon from '@material-ui/icons/Apps';
 import { Avatar } from '@material-ui/core';
@@ -21,7 +22,7 @@ function Home() {
                 </div>
             </div>
             <div className="home_body">
-                <img src="https:/www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
+                <img src={Logo} 
                     alt=""
                 />
                 <div className="home_inputContainer">
