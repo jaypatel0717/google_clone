@@ -1,4 +1,4 @@
-### Google Clone React App
+### Google Clone React Application
 
 #### Used Technologies : 
 1. React JS
