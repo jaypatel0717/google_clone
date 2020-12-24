@@ -1,6 +1,6 @@
 ### Google Clone React Application
 
-![Alt text](https://github.com/jaypatel0717/House_price_prediction/blob/master/hpp.png)
+![Alt text](https://github.com/jaypatel0717/google_clone/blob/master/src/Image/home.png)
 
 -> This is Google clone app using react, google API and firebase based application.<br/>
 -> You can search anything in like actual google search engine.<br/>
