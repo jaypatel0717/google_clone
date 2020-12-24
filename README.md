@@ -1,5 +1,6 @@
 ### Google Clone React Application
 
+<br/>
 ![Alt text](https://github.com/jaypatel0717/google_clone/blob/master/src/Image/homescreen.png)
 
 -> This is Google clone app using react, google API and firebase based application.<br/>
