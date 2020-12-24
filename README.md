@@ -1,5 +1,7 @@
 ### Google Clone React Application
 
+![Alt text](https://github.com/jaypatel0717/House_price_prediction/blob/master/hpp.png)
+
 -> This is Google clone app using react, google API and firebase based application.<br/>
 -> You can search anything in like actual google search engine.<br/>
 -> Open [Google clone](https://clone-c7235.web.app/) to view it in the browser.
@@ -12,6 +14,19 @@
 4. React Context API
 5. Google API for search reasult
 6. Deploy app using Firebase
+
+#### To start this application
+
+```
+Go to -> cd google_clone
+
+npm install
+npm start
+
+npm install react-router-dom
+npm install @material-ui/core
+npm install @material-ui/icons
+```
 
 #### Structure of Componenets :
 
@@ -31,18 +46,11 @@
 4. SearchPage
 5. Footer.css
 
-#### Commands:
-
-In the project directory, you can run:
-
-create new react app
+#### Create new React application:
 
 ```
 npx create-react-app my-app
 cd my-app
 npm start
 
-npm install react-router-dom
-npm install @material-ui/core
-npm install @material-ui/icons
 ```
