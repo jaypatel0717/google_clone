@@ -31,7 +31,7 @@
 4. SearchPage
 5. Footer.css
 
-### Commands:
+#### Commands:
 
 In the project directory, you can run:
 
