@@ -1,10 +1,8 @@
-### Google Clone React Application
+## Google Clone React Application
+
 <br/>
 
-
 ![Alt text](https://github.com/jaypatel0717/google_clone/blob/master/src/Image/homescreen.png)
-
-
 
 -> This is Google clone app using react, google API and firebase based application.<br/>
 -> You can search anything in like actual google search engine.<br/>
@@ -19,7 +17,7 @@
 5. Google API for search reasult
 6. Deploy app using Firebase
 
-#### To start this application
+#### To start this application :
 
 ```
 Go to -> cd google_clone
@@ -50,7 +48,7 @@ npm install @material-ui/icons
 4. SearchPage
 5. Footer.css
 
-#### Create new React application:
+#### Create new React application :
 
 ```
 npx create-react-app my-app
